@@ -1,0 +1,7 @@
+name: Exercice 1
+
+jobs:
+  job_exit:
+   runs-on: ubuntu-latest
+
+   steps: echo "je test ex1"
