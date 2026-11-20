@@ -1,7 +1,9 @@
 name: Exercice 1
 
+on: push
+
 jobs:
   job_exit:
-   runs-on: ubuntu-latest
-
-   steps: echo "je test ex1"
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "je teste ex1"
